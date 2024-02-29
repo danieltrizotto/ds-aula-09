@@ -1,0 +1,58 @@
+@media only screen and (max-width: 600px) {
+    #logo img {
+        height: 60px;
+    }
+}
+
+
+
+header {
+    width: 100%;
+    height: 10vh;
+}
+
+
+#logo img {
+    height: 80px;
+}
+
+#logo {
+    display: inline;
+}
+
+#Busca img {
+    width: 20px;
+    height: 20px;
+}
+
+#Busca {
+    text-align: center;
+}
+
+#Busca input {
+    width: 90%;
+}
+
+body {
+    height: 1000px;
+    background-image: linear-gradient(50deg, red, rgb(190, 85, 85));
+}
+
+#pokemon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#pokemon p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    display: inline;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
