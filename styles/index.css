@@ -17,6 +17,21 @@ background-color: purple;
     align-items: center;
     height: 50vh;
 }
+
+@media screen and (min-width:320px){
+    .container {
+        display: flex;
+        height: 50vh;
+        align-items: flex-end;
+    }
+    .box input {
+        padding: 5px;
+        border-radius: 10px;
+        border: none;
+        background-color: antiquewhite;
+    }
+
+}
 .box{
     padding: 7vh;
     background-color: rgb(198, 174, 201);
