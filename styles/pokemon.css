@@ -32,7 +32,7 @@ header {
     }
     
     #logo img {
-        width: 60px;
+        width: 50px;
         height: 60px;
     }
     
@@ -42,13 +42,14 @@ header {
     }
     
     #logo, #lupa, #Busca {
-        display: inline;
+        display: flex;
         align-items: center; 
        
     }
     
     #Busca input {
-        width: 85%;
+        width: 90%;
+       margin-left: 5px;
         display: inline;
     } 
 }
@@ -82,5 +83,6 @@ footer{
 footer button{
     text-align: center;
     width: 300px;
-
 }
+
+
