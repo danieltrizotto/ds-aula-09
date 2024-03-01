@@ -1,7 +1,7 @@
 function logar() {
-    var nome = document.getElementById("nome").value.trim();
-    var senha = document.getElementById("senha").value.trim();
-    var enviar = document.getElementById("entrar");
+    var nome = document.getElementById("nome").value.trim();//valores sem espaço em branco
+    var senha = document.getElementById("senha").value.trim();//valores sem espaço em branco
+
 
     if (nome === "daniel" && senha === "12345") {
         alert("Acesso garantido");
@@ -11,7 +11,7 @@ function logar() {
     }
 
 
-    if (nome === "" || senha === "") {
+    if (nome === "" || senha === "") {//caso algo esteja em branco
         alert("Preencha as informações");
     }
 
